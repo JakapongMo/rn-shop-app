@@ -1,8 +1,8 @@
 import PRODUCTS from '../../data/dummy-data';
 
 const initialState = {
-    availableProduct: PRODUCTs,
-    userProduct: PRODUCTS.filter(prod => prod.ownerId === 'u1')
+    availableProducts: PRODUCTs,
+    userProducts: PRODUCTS.filter(prod => prod.ownerId === 'u1')
 };
 
 export default (state = initialState, action) => {
